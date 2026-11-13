@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="vb-banner" role="note"><span>Voorbeeldontwerp, speciaal voor Rosario bloemen en planten gemaakt door Cafe Boon</span><a href="https://cafeboon.com">Meer weten</a></div>
 <header><div class="wrap">
 <a href="index.html"><img alt="Rosario" src="images/logo.png"/></a>
 <nav><a href="index.html">Home</a><a href="aanbod.html">Collectie</a><a aria-current="page" href="contact.html">Contact</a><a class="btn s" href="tel:0765650056">Bel ons</a></nav>
@@ -43,6 +44,8 @@
 <p class="soc"><a href="https://www.instagram.com/rosariobloemen/" rel="noopener">Instagram</a><a href="https://nl-nl.facebook.com/pages/category/Florist/Rosario-bloemen-622367654456922/" rel="noopener">Facebook</a><a href="binnenkort.html">Webshop</a></p>
 </div>
 </div></section>
+<section class="sn-formsec" id="formulier"><div class="sn-formwrap"><h2>Stuur ons een bericht</h2><p class="sn-lead">Heeft u een vraag of een wens? Laat een bericht achter.</p><form class="sn-form" id="sn-form"><div class="sn-field"><label for="naam">Naam</label><input id="naam" name="naam" type="text" required autocomplete="name"></div><div class="sn-field"><label for="tel">Telefoonnummer (optioneel)</label><input id="tel" name="tel" type="tel" autocomplete="tel"></div><div class="sn-field full"><label for="email">E-mailadres</label><input id="email" name="email" type="email" required autocomplete="email"></div><div class="sn-field full"><label for="keuze">Waar gaat uw vraag over?</label><select id="keuze" name="keuze" required><option value="">Maak een keuze</option><option>Plukbloemen</option><option>Bloemen abonnement</option><option>Rouwwerk</option><option>Bruidswerk en bruiloften</option></select></div><div class="sn-field full"><label for="opm">Uw bericht</label><textarea id="opm" name="opm" rows="5" required></textarea></div><div class="sn-field full"><button class="btn" type="submit">Bericht versturen</button></div></form></div></section>
+<script>(function(){var f=document.getElementById('sn-form');if(!f)return;f.addEventListener('submit',function(e){e.preventDefault();if(!f.checkValidity()){f.reportValidity();return;}var d=document.createElement('div');d.className='sn-done';d.setAttribute('role','status');d.tabIndex=-1;d.innerHTML='<h2>Bedankt voor uw bericht</h2><p>Dit is een voorbeeldwebsite van Cafe Boon. Uw bericht is daarom niet verstuurd. Neem voor een echt antwoord contact op via <a href="tel:0765650056">076 565 00 56</a>.</p>';f.parentNode.replaceChild(d,f);d.focus();});})();</script>
 <footer>Rosario bloemen en planten · <a href="https://cafeboon.com">Voorbeeldontwerp door Cafe Boon</a></footer>
 <script>try{(function(){var H={0:[600,960],1:[660,1080],2:[510,1080],3:[510,1080],4:[510,1080],5:[510,1080],6:[510,1020]};
 var n=new Date(),d=n.getDay(),m=n.getHours()*60+n.getMinutes(),h=H[d];
